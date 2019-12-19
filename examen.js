@@ -22,6 +22,11 @@ function verificar(){
     
     }
 
+    function reinicio(){
+        document.getElementById("usuario").value = "";
+        document.getElementById("mensaje").value = "";
+}
+
 function salir(){
     window.close();
 }
